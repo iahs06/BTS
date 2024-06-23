@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios - BTS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="biografias.html">Biografías</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="https://btsblog.com">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="comentarios.html">Comentarios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Comentarios</h1>
+            <p>Opiniones y comentarios de los fans:</p>
+            <div class="comments-section">
+                <div class="comment">
+                    <h3>Nombre del Fan</h3>
+                    <p>Comentario del fan sobre BTS y su música.</p>
+                </div>
+                <div class="comment">
+                    <h3>Nombre del Fan</h3>
+                    <p>Comentario del fan sobre BTS y su música.</p>
+                </div>
+                <!-- Agrega más comentarios aquí -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 BTS Fansite</p>
+    </footer>
+</body>
+</html>
