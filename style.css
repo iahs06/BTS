@@ -70,18 +70,6 @@ button:hover {
     background-color: #555;
 }
 
-.gallery, .video-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-}
-
-.gallery img, .video-gallery video {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #555;
-}
-
 .comments-section {
     border-top: 1px solid #555;
     padding-top: 1em;
