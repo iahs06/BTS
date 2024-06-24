@@ -40,17 +40,19 @@ h1, h2 {
     color: #fff;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.intro, .gallery, .video-gallery, .video-container {
+    margin: 20px 0;
 }
 
-.gallery img {
-    width: 200px;
-    height: 300px;
-    object-fit: cover;
-    margin: 10px;
+.intro p, .video-gallery p {
+    color: #ccc;
+}
+
+.gallery img, .video-gallery video, .video-container iframe {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
 }
 
 footer {
@@ -87,4 +89,3 @@ button {
 button:hover {
     background-color: #888;
 }
-
